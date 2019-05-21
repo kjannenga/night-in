@@ -4,6 +4,9 @@ var form = document.getElementById('generate')
 
 form.addEventListener('submit', function (e) {
      e.preventDefault();
+
+     document.getElementById('movieResults').innerHTML = "";
+     document.getElementById('foodResults').innerHTML = "";
     
 
     var location = document.getElementById("locationInput").value
