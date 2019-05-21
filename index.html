@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="main.css">
+        
+    </head>
+    <body>
+    <nav>
+
+
+    </nav>
+
+    <div class="container-fluid">
+        <div class="d-flex justify-content-center align-items-center header">
+            <div>
+                <div id="overlay"></div>
+                <div class="text-white text-center">
+                    <h1>Night In</h1>
+                    <h4>A New Kind of Date Night</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="section bg-secondary pb-5">
+            <div class="text-center pt-5">
+                <h4>Cant decide what to order in? Need some help picking a movie?</h4>
+                <h5>Simply enter your location and a genre and your night will be chosen for you!</h5>
+            </div>
+            <div>
+                <form action="" class="pt-5" id="generate">
+                    <div class="row justify-content-center">
+                        <div class="col-3">
+                            <label for="locationInput">Location</label>
+                            <br>
+                            <input type="text" class="form-control" id="locationInput">
+                        </div>  
+                        <div class="col-3 ">
+                            <label for="genreInput">Genre</label>
+                            <select id="mySelect" class="form-control" name="genre">
+                                <option value="35">Comedy</option>
+                                <option value="28">Action</option>
+                                <option value="27">Horror</option>
+                                <option value="10749">Romance</option>
+                                <option value="16">Animated</option>
+                            </select>
+                        </div>   
+                    </div>
+                    <div class="row justify-content-center pt-5">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                        
+                </form> 
+            </div>
+        </div>
+
+        <div id="results">
+            <div class="row">
+                <div class="col-6" id="foodResults">
+                
+                </div>
+                <div class="col-6" id="movieResults">
+                
+                </div>
+            </div>
+           
+        </div>
+            
+
+        
+        <div class="section bg-primary ">
+            <h2>About</h2>
+            <p>blah blah blah</p>
+
+        </div>
+    </div>
+    <footer>
+
+    </footer>
+   
+
+
+
+
+
+
+        <script src="index.js" async defer></script>
+    </body>
+</html>
