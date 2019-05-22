@@ -30,19 +30,33 @@
                     </div>
                 </div>
        
+        <div id="results" class="bg-primary">
+            <div class="row justify-content-md-center">
+                <div class="col-4" id="foodResults">
+        
+                </div>
+                <div class="col-1">
+        
+                </div>
+                <div class="col-4" id="movieResults">
+        
+                </div>
+            </div>
+        
+        </div>
 
         <div class="section bg-secondary pb-5">
-            <div class="text-center pt-5">
+            <div class="text-center text-light pt-5">
                 <h4>Cant decide what to order in? Need some help picking a movie?</h4>
                 <h5>Simply enter your location and a genre and your night will be chosen for you!</h5>
             </div>
             <div>
                 <form action="" class="pt-5" id="generate">
-                    <div class="row justify-content-center">
+                    <div class="row justify-content-center text-light">
                         <div class="col-3">
                             <label for="locationInput">Location</label>
                             <br>
-                            <input type="text" class="form-control" id="locationInput">
+                            <input type="text" class="form-control" id="locationInput" required>
                         </div>  
                         <div class="col-3 ">
                             <label for="genreInput">Genre</label>
@@ -56,7 +70,7 @@
                         </div>   
                     </div>
                     <div class="row justify-content-center pt-5">
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="submit" class="btn bg-primary text-light">Submit</button>
                     </div>
                         
                 </form> 
@@ -64,24 +78,11 @@
         </div>
 
 
-        <div id="results">
-            <div class="row row justify-content-md-center">
-                <div class="col-4" id="foodResults">
-        
-                </div>
-                <div class="col-1">
-
-                </div>
-                <div class="col-4" id="movieResults">
-                
-                </div>
-            </div>
-           
-        </div>
+       
             
 
         
-        <div class="section bg-light pt-5">
+        <div class="section bg-light py-5 ">
             <section class="section">
                 <div class="container">
                     <header class="section-header">
@@ -113,21 +114,21 @@
             </section>
         </div>
     </div>
-<footer class="footer">
-    <div class="container text-center">
+    <footer class="footer pt-5">
+        <div class="container text-center">
 
-        <div class="social social-bg ">
-            <a class="social-facebook" href="#"><i class="fab fa-facebook fa-3x "></i></a>
-            <a class="social-twitter" href="#"><i class="fab fa-github-square fa-3x p-3"></i></a>
-            <a class="social-linkedin" href="#"><i class="fab fa-linkedin fa-3x"></i></a>
+            <div class="social social-bg ">
+                <a class="social-facebook" href="#"><i class="fab fa-facebook fa-3x "></i></a>
+                <a class="social-twitter" href="#"><i class="fab fa-github-square fa-3x px-3"></i></a>
+                <a class="social-linkedin" href="#"><i class="fab fa-linkedin fa-3x"></i></a>
+            </div>
+
+            <br>
+
+            <p class="small">Copyright © 2019 <a href="frail-cook.surge.sh">Krystine Jannenga</a>, Galvanize Student.</p>
+
         </div>
-
-        <br>
-
-        <p class="small">Copyright © 2019 <a href="frail-cook.surge.sh">Krystine Jannenga</a>, Galvanize Student.</p>
-
-    </div>
-</footer>
+    </footer>
    
 
 
