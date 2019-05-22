@@ -19,25 +19,3 @@
     height:15vh;
 }
 
-/* [data-overlay="6"]::before {
-    opacity: .6;
-}
-[data-overlay]::before {
-    position: absolute;
-    content: '';
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: #191919;
-    height: 60vh;
-    width:100vw;
-
-    
-} */
-
-*::before,
-*::after {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
