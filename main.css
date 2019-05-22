@@ -1,6 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 
 .header{
-    background-image: url('./assets/header.jpg');
+    background-image: url('./assets/header2.png');
     background-size: cover;
     background-position: center;
     height: 60vh;
@@ -9,4 +13,31 @@
 
 }
 
+.team-2 img {
+    border-radius: 10rem;
+    margin-bottom: 2rem;
+    height:15vh;
+}
 
+/* [data-overlay="6"]::before {
+    opacity: .6;
+}
+[data-overlay]::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #191919;
+    height: 60vh;
+    width:100vw;
+
+    
+} */
+
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
