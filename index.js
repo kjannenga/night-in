@@ -109,7 +109,7 @@ form.addEventListener('submit', function (e) {
          var o = document.createElement('p')
          var t = document.createElement('p')
          d.className += " card p-2 m-5 animated fadeInUp bg-light shadow delay-1s"
-         console.log(d.className)
+
          p.innerHTML = random.name
          r.innerHTML = "Score: " + random.rating
          o.innerHTML = "Type: " + random.categories[0].title
@@ -128,6 +128,7 @@ form.addEventListener('submit', function (e) {
          var r = document.createElement('p')
          var o = document.createElement('p')
          d.className += " card p-2 m-5 animated fadeInUp bg-light shadow delay-2s"
+         
          p.innerHTML = random.original_title
          r.innerHTML = "Score: " + random.vote_average
          o.innerHTML = "Overview: " + random.overview
