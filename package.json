@@ -1,7 +1,7 @@
 {
   "name": "night-in",
   "version": "1.0.0",
-  "description": "",
+  "description": "a date night at home generator",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
