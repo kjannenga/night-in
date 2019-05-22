@@ -6,7 +6,9 @@ form.addEventListener('submit', function (e) {
      e.preventDefault();
 
      document.getElementById('movieResults').innerHTML = "";
+     document.getElementById('movieResults').className = "col-4"
      document.getElementById('foodResults').innerHTML = "";
+     document.getElementById('foodResults').className = "col-4"
     
 
     var location = document.getElementById("locationInput").value
@@ -92,7 +94,24 @@ form.addEventListener('submit', function (e) {
     }
 
 
-
+function makeFood(random) {
+    console.log(random)
+    var d = document.getElementById('foodResults')
+    var p = document.createElement('p')
+    var r = document.createElement('p')
+    var o = document.createElement('p')
+    var t = document.createElement('p')
+    d.className += " card p-2 m-5 animated fadeInUpBig"
+    console.log(d.className)
+    p.innerHTML = random.name
+    r.innerHTML = "Score: " + random.rating
+    o.innerHTML = "Type: " + random.categories[0].title
+    t.innerHTML = "Phone: " + random.display_phone
+    d.append(p)
+    d.append(r)
+    d.append(o)
+    d.append(t)
+}
 
 
     function makeMovie(random){
@@ -111,24 +130,7 @@ form.addEventListener('submit', function (e) {
     }
 
 
-    function makeFood(random) {
-        console.log(random)
-        var d = document.getElementById('foodResults')
-        var p = document.createElement('p')
-        var r = document.createElement('p')
-        var o = document.createElement('p')
-        var t = document.createElement('p')
-         d.className += " card p-2 m-5 animated fadeInUpBig"
-         console.log(d.className)
-        p.innerHTML = random.name
-        r.innerHTML = "Score: " + random.rating
-        o.innerHTML = "Type: " + random.categories[0].title
-        t.innerHTML = "Phone: " + random.display_phone
-        d.append(p)
-        d.append(r)
-        d.append(o)
-        d.append(t)
-    }
+    
 
 
 
