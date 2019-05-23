@@ -1,0 +1,19 @@
+{
+    "version": 2,
+    "name": "Night-In",
+    "builds": [
+        {"src": "index.js", "use":"@now/node"},
+        {"src": "index.html", "use":"@now/static"},
+        {"src": "main.css", "use": "@now/static"},
+        {"src": "bootstrap.min.css", "use": "@now/static"},
+        {
+            "src": "krystine.jpeg",
+            "use": "@now/static"
+        },
+        {
+            "src": "header.png",
+            "use": "@now/static"
+        }
+        
+    ]
+}

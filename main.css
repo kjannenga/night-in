@@ -4,7 +4,7 @@
 }
 
 .header{
-    background-image: url('./assets/header.png');
+    background-image: url('./header.png');
     background-size: cover;
     background-position: center;
     height: 60vh;
