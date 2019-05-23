@@ -19,3 +19,9 @@
     height:15vh;
 }
 
+#foodImg {
+    width: auto;
+    max-height:265.25px;
+    display:center
+}
+
